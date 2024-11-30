@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Sangbum Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am an visual-inertial SLAM engineer."
   location         : "Somewhere"
   email            :
   links:
@@ -132,11 +132,11 @@ author:
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      icon: "github"
+      url: "https://github.com/Sangbum99"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon: "instagram"
+      url: "https://instagram.com/"
 
 # Site Footer
 footer:
