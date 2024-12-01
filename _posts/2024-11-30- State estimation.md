@@ -30,6 +30,7 @@ $$
 선형화 모델은 다음과 같다.
 
 $\hat{(\cdot)}$ : value after time update
+
 $$
 \mathrm{\dot{\delta X_i} = F\delta X_i +Gn} \\
 \mathrm{\hat{\delta X_i} = exp(F)\delta X_idt + Gndt} \\
@@ -98,4 +99,3 @@ $$
 x^+ = x + \mathrm{K_n}r_n \\
 \mathrm{P^+ = (I-K_n T_h)P(I-K_h T_h)^\top + K_n R_n K_n^\top}
 $$
-{: style="text-align: center;"}
