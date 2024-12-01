@@ -14,6 +14,7 @@ $$
 \mathrm{X_i} = [q^g_b, p^g, v^g, b_a, b_g] \in R^{16\times1} \\
 \mathrm{X_s} = [q_0, p_0, \dots, q_{N_{slw}}, p_{N_{slw}}]\in R^{7N_{slw}\times1} \\
 n = [n_a, n_g, b_a, b_g]^\top \in R^{12\times1}
+
 $$
 
 ##### Error-state modeling
@@ -97,3 +98,4 @@ $$
 x^+ = x + \mathrm{K_n}r_n \\
 \mathrm{P^+ = (I-K_n T_h)P(I-K_h T_h)^\top + K_n R_n K_n^\top}
 $$
+{: style="text-align: center;"}
