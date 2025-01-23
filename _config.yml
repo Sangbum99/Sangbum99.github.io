@@ -1,0 +1,221 @@
+# Site
+repository: https://github.com/Sangbum99
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Sangbum Lee
+title: Visual-inertial SLAM Engineer
+email: leesab091435@gmail.com
+website: https://sangbum99.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  Sangbum99
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: sang_bum_lee_
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a <mark>Visual-inertial SLAM</mark> engineer from Korea with a strong passion for robotics 🤖. Currently, I am pursuing my master's degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using multiple programming languages, including <mark>C++</mark> and <mark>Python</mark> with <mark>ROS</mark> 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM works, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
+
+  I am always open to collaboration and happy to discuss any of my previous work. Please feel free to reach out with any questions 👏👏.  
+  
+content:
+  - title: Careers 🎓   # Title for the section
+    layout: list        # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Master Student of Aerospace Engineering
+        caption: Aug. 2023 - Current
+        sub_title: Seoul National University
+            
+      - layout: top-middle
+        title: Undergraduate Research Assistent
+        caption: Mar. 2023 - Aug. 2023
+        sub_title: Intelligent Rotorcraft Structure Lab., Konkuk University
+
+      - layout: top-middle
+        title: International Exchange Student
+        caption: Aug. 2022 - Jan. 2023
+        sub_title: Hamline University
+    
+      - layout: top-middle
+        title: Bachelor of Mechanical and Aerospace Engineering
+        caption: Mar. 2018 - Aug. 2023
+        sub_title: Konkuk University
+
+  - title: Accepted papers 📃 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        description: |
+          <div style="margin-bottom: 20px; font-family: Arial, sans-serif; line-height: 1.2; font-size: 16px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+              <p style="font-weight: bold; margin: 0; font-size: 20px;">Dynamic Object Removal for Robust Feature-based Visual-Inertial Odometry</p>
+              <p style="font-style: italic; margin: 0; font-size: 18px;">ICRA 2025</p>
+            </div>
+            <div style="display: flex; justify-content: space-between; line-height: 1.2; margin-top: 2px;">
+              <p style="font-style: italic; margin-top: 5px; font-size: 16px;">Sangbum Lee, Hanyeol Lee, and Chan Gook Park</p>
+            </div>
+          </div>
+
+
+        # title: Dynamic Object Removal for Robust Feature-based Visual-Inertial Odometry
+        # sub_title: ICRA 2025
+        # caption: Sangbum Lee, Hanyeol Lee, and Chan Gook Park
+
+      - layout: top-middle
+        title: "G4Q-VIO: Ground constraints for a quadruped robot VIO"
+        sub_title: ICRA 40, Sep. 2024
+        caption: Sangbum Lee, Hanyeol Lee, and Chan Gook Park
+
+      - layout: top-middle
+        title: Improvement of Visual-Inertial Odometry Utilizing Plane-Constraints for a Quadruped Robot
+        sub_title: ICROS, Jul. 2024
+        caption: Sangbum Lee, Hanyeol Lee, and Chan Gook Park
+
+      - layout: top-middle
+        title: Performance Enhancement Analysis of Mars Unmanned Helicopter Rotor
+        sub_title: KSAS, Apr. 2023
+        caption: Seong Hyun Hong, Sangbum Lee, et. al.
+        #     link: github.com/sproogen
+        # # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   #   icon: fab fa-github
+        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # description: | # this will include new lines to allow paragraphs
+        #   I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Research Member
+        caption: Sep. 2023 - Current
+        sub_title: Navigation and Electronics Lab.
+        description: | # this will include new lines to allow paragraphs
+            The Navigation and Electronics Lab (NESL) primarily focuses on researching integrated navigation systems, with recent expansions into SLAM (Simultaneous Localization and Mapping). Through my participation in a project with KARI, I contributed to the development of indoor and outdoor navigation technologies designed to perform effectively in unknown and challenging environments.
+            My specialization lies in visual-inertial navigation systems. As highlighted in my accepted papers, I have focused on incorporating semantic information to improve the navigation accuracy of mobile platforms.
+
+      - layout: left
+        title: "H-Mobility: Autonomous Driving Course"
+        caption: Mar. 2024 - Aug. 2024
+        sub_title: Hyundai Motor Group
+        description: | 
+            This course covered the perception, control, and network systems of autonomous driving vehicles. Together with my teammates, I designed an integrated system using ROS 2 Humble and Python.
+            For the implementation, YOLO-based instance segmentation and a bird's-eye view transformation were employed to enable basic path planning and steering control. Signal communication was seamlessly managed through the DDS (Data Distribution Service) network architecture within ROS 2 Humble.
+
+      - layout: left
+        title: Coursework
+        sub_title: Master and Bachelor Course
+        description: |                     
+              - <div style="display:flex;justify-content:space-between;align-items:center;line-height:1.2;margin-bottom:4px;">
+                  <div>
+                    <p style="font-weight:bold;margin:0;">Integrated Navigation System</p>
+                  </div>
+                  <p style="margin:0;">A+</p>
+                </div>
+                <div style="display:flex;justify-content:space-between;line-height:1.2;margin-top:2px;">
+                  <p style="margin:0;">Master course, Seoul National University</p>
+                </div>
+              - <div style="display:flex;justify-content:space-between;align-items:center;line-height:1.2;margin-bottom:4px;">
+                <div>
+                  <p style="font-weight:bold;margin:0;">Aerospace Estimation</p>
+                </div>
+                <p style="margin:0;">A-</p>
+                </div>
+                <div style="display:flex;justify-content:space-between;line-height:1.2;margin-top:2px;">
+                  <p style="margin:0;">Master course, Seoul National University</p>
+                </div>
+              - <div style="display:flex;justify-content:space-between;align-items:center;line-height:1.2;margin-bottom:4px;">
+                  <div>
+                    <p style="font-weight:bold;margin:0;">System Engineering</p>
+                  </div>
+                  <p style="margin:0;">A+</p>
+                </div>
+                <div style="display:flex;justify-content:space-between;line-height:1.2;margin-top:2px;">
+                  <p style="margin:0;">Bachelor course, Konkuk University</p>
+                </div>
+              - <div style="display:flex;justify-content:space-between;align-items:center;line-height:1.2;margin-bottom:4px;">
+                  <div>
+                    <p style="font-weight:bold;margin:0;">Control Engineering</p>
+                  </div>
+                  <p style="margin:0;">A0</p>
+                </div>
+                <div style="display:flex;justify-content:space-between;line-height:1.2;margin-top:2px;">
+                  <p style="margin:0;">Bachelor course, Konkuk University</p>
+                </div>
+
+        # link: boringcompany.com
+        # # link_text: boringcompany.com
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        # description: | # this will include new lines to allow paragraphs
+        #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
