@@ -57,12 +57,12 @@ content:
     layout: list        # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Master Student of Aerospace Engineering
+        title: Master Student in Aerospace Engineering
         caption: Aug. 2023 - Current
         sub_title: Seoul National University
             
       - layout: top-middle
-        title: Undergraduate Research Assistent
+        title: Undergraduate Research Assistant
         caption: Mar. 2023 - Aug. 2023
         sub_title: Intelligent Rotorcraft Structure Lab., Konkuk University
 
@@ -72,7 +72,7 @@ content:
         sub_title: Hamline University
     
       - layout: top-middle
-        title: Bachelor Degree of Mechanical and Aerospace Engineering
+        title: Bachelor Degree in Mechanical and Aerospace Engineering
         caption: Mar. 2018 - Aug. 2023
         sub_title: Konkuk University
 
@@ -126,25 +126,7 @@ content:
               <p style="font-style: italic; margin-top: 5px; font-size: 16px;">Seong Hyun Hong, Sangbum Lee, et. al.</p>
             </div>
           </div>
-
-      # - layout: top-middle
-      #   title: Performance Enhancement Analysis of Mars Unmanned Helicopter Rotor
-      #   sub_title: KSAS, Apr. 2023
-      #   caption: Seong Hyun Hong, Sangbum Lee, et. al.
-        #     link: github.com/sproogen
-        # # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-        #   # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   #   icon: fab fa-github
-        #   #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        # description: | # this will include new lines to allow paragraphs
-        #   I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          
   - title: Experience 🚀  # Title for the section
     layout: list          # Type of content section (list/text)
     content:
