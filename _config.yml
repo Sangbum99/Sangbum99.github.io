@@ -83,8 +83,20 @@ content:
         description: |
           <div style="margin-bottom: 20px; font-family: Arial, sans-serif; line-height: 1.2; font-size: 16px;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
-              <p style="font-weight: bold; margin: 0; font-size: 20px;">Dynamic Object Removal for Robust Feature-based Visual-Inertial Odometry</p>
-              <p style="font-style: italic; margin: 0; font-size: 18px;">ICRA 2025</p>
+              <p style="font-weight: bold; margin: 0; font-size: 20px;">GRVIO: Semantic-aware Visual-Inertial Odometry for Ground Robot Platforms</p>
+              <p style="font-style: italic; margin: 0; font-size: 18px;">IEEE Access under review</p>
+            </div>
+            <div style="display: flex; justify-content: space-between; line-height: 1.2; margin-top: 2px;">
+              <p style="font-style: italic; margin-top: 5px; font-size: 16px;">Sangbum Lee, Hanyeol Lee, and Chan Gook Park</p>
+            </div>
+          </div>
+
+      - layout: top-middle
+        description: |
+          <div style="margin-bottom: 20px; font-family: Arial, sans-serif; line-height: 1.2; font-size: 16px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+              <p style="font-weight: bold; margin: 0; font-size: 20px;">Visual-Inertial Odometry based on Dynamic Measurement Model</p>
+              <p style="font-style: italic; margin: 0; font-size: 18px;">KSAS, Apr. 2025</p>
             </div>
             <div style="display: flex; justify-content: space-between; line-height: 1.2; margin-top: 2px;">
               <p style="font-style: italic; margin-top: 5px; font-size: 16px;">Sangbum Lee, Hanyeol Lee, and Chan Gook Park</p>
