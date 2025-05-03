@@ -14,6 +14,15 @@ website: https://sangbum99.github.io/
 # Dark Mode (true/false/never)
 darkmode: false
 
+# Additional icon links
+additional_links:
+- title: Notion blog  
+  icon: fas fa-solid fa-blog
+  url: https://www.notion.so/T2V-Text-to-Video-1cf48924374c80e98c4dcf23d453e314
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
 # Social links
 # twitter_username: facespics
 github_username:  Sangbum99
@@ -28,16 +37,6 @@ instagram_username: sang_bum_lee_
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  # icon: fas fa-globe
-  icon: fas fa-solid fa-blog
-  url: https://www.notion.so/T2V-Text-to-Video-1cf48924374c80e98c4dcf23d453e314
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -213,14 +212,14 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      Alongside my interests in SLAM and robotics, some of my other interests and hobbies are:
+      - Work out at the gym
+      - Soccer
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Playing the guitar
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  # Look at this cool image  
+  # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
