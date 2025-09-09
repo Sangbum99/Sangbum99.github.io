@@ -10,21 +10,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: About
+    - text: "About"
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
+    - text: Projects
+      url: /projects
+    # - text: Shop
+    #   url : /shop
     - text: Contact
       url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: profile.jpg
 author: Sangbum Lee
 author_bio: Hi,   I am a <mark>Visual-inertial SLAM</mark> engineer from Korea with a strong passion for robotics 🤖. Currently, I am pursuing my master's degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using multiple programming languages, including <mark>C++</mark> and <mark>Python</mark> with <mark>ROS</mark> 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM works, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
 
@@ -32,7 +32,7 @@ author_bio: Hi,   I am a <mark>Visual-inertial SLAM</mark> engineer from Korea w
 author_email: "leesab091435@gmail.com"
 author_location: South Korea
 author_website_url: "https://sangbum99.github.io/"
-typewrite-text: I'm Sangbum Lee and intersted in Robotics and Spatial AI for autonomous robots.
+typewrite-text: I'm a Robotics and Spatial AI enginner for autonomous robots.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -90,7 +90,7 @@ instagram_username: sang_bum_lee
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: Sangbum99
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0

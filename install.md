@@ -1,175 +1,88 @@
 ---
-title: Get Started
+title: CV
 layout: page
-permalink: /get-started/
+permalink: /cv/
 ---
 
-## Getting Started - How to use “devlopr-jekyll” theme
+# Sangbum Lee
+*Visual-Inertial SLAM Engineer*
 
-## What's Jekyll ?
+[Website](https://sangbum99.github.io/) · [GitHub](https://github.com/Sangbum99) · [Email](mailto:leesab091435@gmail.com) · [Instagram](https://www.instagram.com/sang_bum_lee_) · [Notion Blog](https://www.notion.so/T2V-Text-to-Video-1cf48924374c80e98c4dcf23d453e314)
 
-If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
-
-## Watch Tutorial
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cXBEfpn0qrg?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
-
->  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork1.PNG){:class="img-fluid"}
-
-> **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork2.PNG){:class="img-fluid"}
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork3.PNG){:class="img-fluid"}
-
-> **Step 3.** Clone the new repo locally to make changes :
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork31.PNG){:class="img-fluid"}
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork32.PNG){:class="img-fluid"}
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork33.PNG){:class="img-fluid"}
-
-```bash
- $ git clone https://github.com/yourusername/yourusername.github.io
- $ cd yourusername.github.io
- $ code .
-```
-
-> **Step 4.** Open the files using VSCode and edit _config.yml and edit with your details:
-
-- _config.yml file - replace with your own details
-- _posts - Add your blog posts here
-- _includes - You can replace the contents of the files with your data. (contains widgets)
-- _assets/img - Add all your images here
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork34.PNG){:class="img-fluid"}
-
-> **Step 5** - Install the development requirements:
-
-### Set up local development environment
-
-1. [Git](https://git-scm.com/)
-2. [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/)
-3. [VSCode](https://code.visualstudio.com/download)
-
-We need ruby and bundler to build our site locally. After installation check if its working:
-
-For ruby :
-
-```bash
-$ ruby -v
-ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
-```
-For bundler :
-
-```bash
-$ gem install bundler
-$ bundler -v
-Bundler version 2.2.29
-```
-Add jekyll :
-
-```bash
-$ bundle update
-$ bundle add jekyll
-```
- This command will add the Jekyll gem to our Gemfile and install it to the ./vendor/bundle/ folder.
-
-You can check the jekyll version
-
-```
-$ bundle exec jekyll -v
-jekyll 4.2.0
-```
-
-> **Step 6.** Install the gem dependencies by running the following command
-
-```bash
-$ bundle update
-$ bundle install
-```
-
-> **Step 7.** Serve the site locally by running the following command below:
-
-```bash
-$ bundle exec jekyll serve --watch
-```
-or you can also serve using :
-
-```bash
-$ jekyll serve
-```
-
-Visit [http://localhost:4000](http://localhost:4000) for development server
-
-![Devlopr Jekyll Repo](/assets/img/posts/fork41.PNG){:class="img-fluid"}
-
-
-### Adding Content
-
-Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
-
-#### YAML Post Example:
-
-```yml
----
-layout: post
-title: Sample Post
-author: Sujay Kundu
-date: '2019-05-21 14:35:23 +0530'
-category:
-        - jekyll
-summary: This is the summary for the sample post
-thumbnail: sample.png
 ---
 
-Hi ! This is sample post.
+![Profile](images/profile_.jpg)
 
-```
+## About Me
+I am a **Visual-Inertial SLAM** engineer from Korea with a strong passion for robotics 🤖. I am currently pursuing my master’s degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using **C++**, **Python**, and **ROS** 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM work, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
 
-#### YAML Page Example:
+I am always open to collaboration and happy to discuss any of my previous work. Please feel free to reach out with any questions 👏👏.
 
-```yml
----
-layout: page
-title: Sample Page
-permalink: /sample-page/
 ---
 
-Hi ! This is sample page.
-```
+## Careers 🎓
+- **Master Student in Aerospace Engineering** — *Seoul National University*  
+  *Aug. 2023 – Present*
 
-#### Editing stylesheet
+- **Undergraduate Research Assistant** — *Intelligent Rotorcraft Structure Lab., Konkuk University*  
+  *Mar. 2023 – Aug. 2023*
 
-You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
+- **International Exchange Student** — *Hamline University*  
+  *Aug. 2022 – Jan. 2023*
 
-### Deploy your Changes
+- **B.S. in Mechanical and Aerospace Engineering** — *Konkuk University*  
+  *Mar. 2018 – Aug. 2023*
 
-Once happy with your blog changes. Push your changes to master branch.
+---
 
-> **Step 8.** Push Your Local Changes
+## Accepted Papers 📃
+- **GRVIO: Semantic-aware Visual-Inertial Odometry for Ground Robot Platforms**  
+  *IEEE Access — under review*  
+  *Sangbum Lee, Hanyeol Lee, and Chan Gook Park*
 
-```bash
- $ git add .
- $ git commit -m "my new blog using devlopr-jekyll"
- $ git push origin master
-```
+- **Visual-Inertial Odometry based on Dynamic Measurement Model**  
+  *KSAS, Apr. 2025*  
+  *Sangbum Lee, Hanyeol Lee, and Chan Gook Park*
 
-Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
+- **G4Q-VIO: Ground constraints for a quadruped robot VIO**  
+  *ICRA 40, Sep. 2024*  
+  *Sangbum Lee, Hanyeol Lee, and Chan Gook Park*
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork6.PNG){:class="img-fluid"}
+- **Improvement of Visual-Inertial Odometry Utilizing Plane-Constraints for a Quadruped Robot**  
+  *ICROS, Jul. 2024*  
+  *Sangbum Lee, Hanyeol Lee, and Chan Gook Park*
 
-> **Step 9.** Deploy your Blog :
+- **Performance Enhancement Analysis of Mars Unmanned Helicopter Rotor**  
+  *KSAS, Apr. 2023*  
+  *Seong Hyun Hong, Sangbum Lee, Jae Seong Bae, Sung Nam Jung, et al.*
 
-![Devlopr Jekyll Repo](/assets/img/posts/fork7.PNG){:class="img-fluid"}
+---
 
-> Congrats ! On your new shining Blog !
+## Experience 🚀
+### Research Member — Navigation and Electronics Lab. (NESL)  
+*Sep. 2023 – Present*  
+The Navigation and Electronics Lab (NESL) primarily focuses on researching integrated navigation systems, with recent expansions into SLAM (Simultaneous Localization and Mapping). Through my participation in a project with KARI, I contributed to the development of indoor and outdoor navigation technologies designed to perform effectively in unknown and challenging environments.  
+My specialization lies in visual-inertial navigation systems. As highlighted in my accepted papers, I have focused on incorporating semantic information to improve the navigation accuracy of mobile platforms.
 
-You can visit the blog using [http://your-github-username.github.io](http://your-github-username.github.io).
+### H-Mobility: Autonomous Driving Course — Hyundai Motor Group  
+*Mar. 2024 – Aug. 2024*  
+This course covered the perception, control, and network systems of autonomous driving vehicles. Together with my teammates, I designed an integrated system using ROS 2 Humble and Python.  
+For the implementation, YOLO-based instance segmentation and a bird’s-eye view transformation were employed to enable basic path planning and steering control. Signal communication was seamlessly managed through the DDS (Data Distribution Service) network architecture within ROS 2 Humble.
 
+### Coursework (Selected)
+- **Integrated Navigation System** — *A+* (Master, Seoul National University)  
+- **Aerospace Estimation** — *A-* (Master, Seoul National University)  
+- **System Engineering** — *A+* (Bachelor, Konkuk University)  
+- **Control Engineering** — *A0* (Bachelor, Konkuk University)
+
+---
+
+## A Little More About Me
+- Work out at the gym  
+- Soccer  
+- Gaming  
+- Playing the guitar  
+
+---
+
+<sub>Favicon: `images/favicon.ico` · Theme: `sproogen/resume-theme` · Analytics not configured</sub>
