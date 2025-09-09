@@ -3,8 +3,8 @@ subtitle: Robotics and Spatial AI Engineer | VI-SLAM
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sangbum99.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -26,11 +26,13 @@ urls:
 
 author_logo: profile.png
 author: Sangbum Lee
-author_bio: Hi, I'm Sangbum Lee and intersted in Robotics and Spatial AI for autonomous robots.
+author_bio: Hi,   I am a <mark>Visual-inertial SLAM</mark> engineer from Korea with a strong passion for robotics 🤖. Currently, I am pursuing my master's degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using multiple programming languages, including <mark>C++</mark> and <mark>Python</mark> with <mark>ROS</mark> 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM works, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
+
+  I am always open to collaboration and happy to discuss any of my previous work. Please feel free to reach out with any questions 👏👏. 
 author_email: "leesab091435@gmail.com"
 author_location: South Korea
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_website_url: "https://sangbum99.github.io/"
+typewrite-text: I'm Sangbum Lee and intersted in Robotics and Spatial AI for autonomous robots.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
