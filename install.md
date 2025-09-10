@@ -84,5 +84,3 @@ For the implementation, YOLO-based instance segmentation and a bird’s-eye view
 - Playing the guitar  
 
 ---
-
-<sub>Favicon: `images/favicon.ico` · Theme: `sproogen/resume-theme` · Analytics not configured</sub>

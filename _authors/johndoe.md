@@ -3,7 +3,7 @@ name: Sangbum Lee
 username: Sangbum
 bio: "Hi, I'm Sangbum, a Robotics Engineer."
 site: http://sangbum99.github.io
-avatar: johndoe.png
+avatar: profile.jpg
 email: leesab091435@gmail.com
 social:
     - title: "github"
