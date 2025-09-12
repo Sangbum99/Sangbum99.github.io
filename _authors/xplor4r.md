@@ -1,7 +1,7 @@
 ---
 name: Sangbum Lee
-username: xplor4r
-bio: "Full Stack Web Developer, based in Bangalore, India"
+username: Sangbum
+bio: "SLAM Engineer, South Korea"
 site: https://sangbum.github.io
 avatar: profile.jpg
 email: leesab091435@gmail.com

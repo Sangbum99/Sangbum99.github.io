@@ -54,7 +54,7 @@ author_education_details:
                 visibility: true
               - college_logo: KU.png
                 college_name: Konkuk University
-                college_url: https://snu.ac.kr
+                college_url: https://www.konkuk.ac.kr/
                 college_degree: Mechanical and Aerospace Engineering
                 description: Bachelor of Technology
                 visibility: true
@@ -62,18 +62,18 @@ author_education_details:
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: To be updated (check CV)
+                project_description: To be updated
+                project_url: TO be updated
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+              # - project_thumbnail: hack4r.PNG
+              #   project_title: Hack4r
+              #   project_description: A Platform built for Hackers and Penetration Testers
+              #   project_url: https://hack4r.com
+              #   visibility: true
 
 # social links
-# twitter_username: xplor4r
+# twitter_username: Sangbum
 github_username:  Sangbum99
 instagram_username: sang_bum_lee
 # facebook_username: johndoe

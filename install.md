@@ -7,11 +7,11 @@ permalink: /cv/
 # Sangbum Lee
 *Visual-Inertial SLAM Engineer*
 
-[Website](https://sangbum99.github.io/) · [GitHub](https://github.com/Sangbum99) · [Email](mailto:leesab091435@gmail.com) · [Instagram](https://www.instagram.com/sang_bum_lee_) · [Notion Blog](https://www.notion.so/T2V-Text-to-Video-1cf48924374c80e98c4dcf23d453e314)
+[Website](https://sangbum99.github.io/) · [GitHub](https://github.com/Sangbum99) · [Email](mailto:leesab091435@gmail.com) · [Instagram](https://www.instagram.com/sang_bum_lee_)
 
 ---
 
-![Profile](images/profile_.jpg)
+<!-- ![Profile](images/profile_.jpg) -->
 
 ## About Me
 I am a **Visual-Inertial SLAM** engineer from Korea with a strong passion for robotics 🤖. I am currently pursuing my master’s degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using **C++**, **Python**, and **ROS** 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM work, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
