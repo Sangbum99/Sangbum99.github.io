@@ -165,8 +165,8 @@ permalink: /styleguide/
 
 <h3 id="codepen-embed">CodePen Embed</h3>
 
-<p data-height="265" data-theme-id="light" data-slug-hash="YWvpRo" data-default-tab="css,result" data-user="kharrop" data-embed-version="2" data-pen-title="Referral Form" class="codepen"></p>
-<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<!-- <p data-height="265" data-theme-id="light" data-slug-hash="YWvpRo" data-default-tab="css,result" data-user="kharrop" data-embed-version="2" data-pen-title="Referral Form" class="codepen"></p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script> -->
 
 <hr />
 

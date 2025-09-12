@@ -14,8 +14,8 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Projects
-      url: /projects
+    # - text: Projects
+    #   url: /projects
     # - text: Shop
     #   url : /shop
     - text: Contact
@@ -26,7 +26,7 @@ urls:
 
 author_logo: profile.jpg
 author: Sangbum Lee
-author_bio: Hi,   I am a <mark>Visual-inertial SLAM</mark> engineer from Korea with a strong passion for robotics 🤖. Currently, I am pursuing my master's degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using multiple programming languages, including <mark>C++</mark> and <mark>Python</mark> with <mark>ROS</mark> 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM works, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
+author_bio: Hi, I am a <mark>Visual-inertial SLAM</mark> engineer from Korea with a strong passion for robotics 🤖. Currently, I am pursuing my master's degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using multiple programming languages, including <mark>C++</mark> and <mark>Python</mark> with <mark>ROS</mark> 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM works, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
 
   I am always open to collaboration and happy to discuss any of my previous work. Please feel free to reach out with any questions 👏👏. 
 author_email: "leesab091435@gmail.com"
@@ -37,25 +37,25 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Navigation and Electronics System Lab, Seoul National University
+              company_logo: NESL.jpg
+              company_url: https://nesl.snu.ac.kr
+              designation: Research Member
+              description: Worked on developing integrated navigation system 
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
+              - college_logo: SNU.png
+                college_name: Seoul National University
+                college_url: https://snu.ac.kr
+                college_degree: Aerospace Engineering
+                description: Bachelor of Technology
+                visibility: true
+              - college_logo: KU.png
+                college_name: Konkuk University
+                college_url: https://snu.ac.kr
+                college_degree: Mechanical and Aerospace Engineering
                 description: Bachelor of Technology
                 visibility: true
 
@@ -136,14 +136,14 @@ paginate_path: "/blog/page/:num/"
 
 collections:
   products:
-    output: true
+    output: false
   authors:
     output: true
 
 defaults:
   -
     scope:
-      path: "gallery"
+      path: "projects"
     values:
       permalink: /:path/:basename:output_ext
   -
