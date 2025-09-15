@@ -2,7 +2,7 @@
 layout: post
 title:  "How to model Inertial Measurement Unit"
 summary: "IMU modeling with kinematics"
-author: sangbum
+author: Sangbum
 date: '2025-09-12 1:35:23 +0530'
 category: ['Sensor modeling']
 tags: IMU
