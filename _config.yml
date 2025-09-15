@@ -25,7 +25,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.jpg
-author: Sangbum Lee
+author: Sangbum
 author_bio: Hi, I am a <mark>Visual-inertial SLAM</mark> engineer from Korea with a strong passion for robotics 🤖. Currently, I am pursuing my master's degree in the Navigation and Electronics System Lab (NESL) at Seoul National University. I specialize in designing probabilistic estimators using multiple programming languages, including <mark>C++</mark> and <mark>Python</mark> with <mark>ROS</mark> 👨🏻‍💻. While I have a few accepted papers, I take pride in developing my own code, which is available in my repositories. In addition to my SLAM works, I am capable of performing structural and aerodynamic analysis using CATIA and AutoCAD ⚙️.
 
   I am always open to collaboration and happy to discuss any of my previous work. Please feel free to reach out with any questions 👏👏. 
@@ -75,14 +75,14 @@ author_project_details:
 # social links
 # twitter_username: Sangbum
 github_username:  Sangbum99
-instagram_username: sang_bum_lee
-# facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
+instagram_username: sang_bum_lee_
+linkedin_username: Sangbum
+# facebook_username: Sangbum
+# behance_username: Sangbum
+# medium_username: Sangbum
+# telegram_username: Sangbum
+# dribbble_username: Sangbum
+# flickr_username: Sangbum
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -135,8 +135,6 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 collections:
-  products:
-    output: false
   authors:
     output: true
 
