@@ -15,7 +15,15 @@
       <a href="{{post.url}}" class="article-card-link">
         <div id="article-container">
           <div id="article-img">
-            {% if post.author %}
+            {% if post.thumbnail %}
+              <img
+                src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}"
+                alt="{{post.title}}"
+                style="width: 50px; height: 50px;"
+              />
+            {% endif %}
+
+            <!-- {% if post.author %}
               {% assign author = post.author %}
               {% if author %}
                {% assign author_data = site.data.authors[author] %}
@@ -25,7 +33,7 @@
                 height="50px"
              />
               {% endif %}
-            {% endif %}
+            {% endif %} -->
 
           </div>
           <div id="article-link">

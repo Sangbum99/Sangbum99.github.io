@@ -133,12 +133,27 @@
 
  <!-- for Mathjax support -->
   {% if page.usemathjax %}
-   <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-      TeX: { equationNumbers: { autoNumber: "AMS" } }
-      });
-   </script>
-   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        tags: 'ams'
+      },
+      options: {
+        skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+  <!-- (선택) 동적 페이지 갱신 시 재-타입셋 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.MathJax?.typesetPromise) MathJax.typesetPromise();
+    });
+  </script>
   {% endif %}
 
   <!-- Github Button -->

@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "How to model Inertial Measurement Unit"
-summary: "IMU modeling with kinematics"
+title:  "How to model systems"
+summary: "system modeling with kinematics"
 author: Sangbum
 date: '2025-09-12 1:35:23 +0530'
 category: ['Sensor modeling']
-tags: IMU
+tags: system
 thumbnail: /assets/img/posts/250912_IMU.jpg
 keywords: inertial measurement unit, sensor modeling, kinematics
 usemathjax: true
-permalink: /blog/imu-modeling-with-kineamtics/
+permalink: /blog/system-modeling-with-kineamtics/
 ---
 # System Modeling
 
@@ -201,7 +201,9 @@ $$
 
 =\mathbf{R}^G_B[\omega]_\times\hat{\mathbf{R}}^B_G + 
 \mathbf{R}^G_B (\hat{\mathbf{R}}^G_B [\hat{\omega}]_\times)^\top \\
+$$
 
+$$
 =\mathbf{R}^G_B[\omega-\hat{\omega}]_\times\hat{\mathbf{R}}^B_G
 \\
 
@@ -209,11 +211,13 @@ $$
 \\
 
 =[\hat{\mathbf{R}}^G_B\tilde{\omega}]_\times
- 
 $$
 
-결과적으로,
 
+
+
+
+결과적으로,
 $$
 \dot{\tilde{\boldsymbol{\theta}}}^G_B = \hat{\mathbf{R}}^G_B\tilde{\omega}
 = -\hat{\mathbf{R}}^G_B (b_g + n_g)
