@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<div class="container mt-3 mt-md-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">     
+
+      {% assign posts_col = paginator.posts | default: site.posts %}
+
+      {% for post in posts_col %}
+      <article class="card border-0 shadow-sm post-row">
+        <div class="row g-0 align-items-stretch">
+
+          <!-- 썸네일 (왼쪽) -->
+          <div class="thumb">
+            <a class="d-block h-100" href="{{ post.link }}" target="_blank" rel="noopener noreferrer">
+              <img                
+                src="{{ post.thumbnail | relative_url }}"
+                alt="{{ post.title }}"
+                loading="lazy"
+              >
+            </a>
+          </div>
+
+          <!-- 텍스트 (오른쪽) -->
+          <div class="col-md-8">
+            <div class="card-body d-flex flex-column h-100">
+              <h4 class="card-title">
+                <a  href="{{ post.link }} " target="_blank" rel="noopener noreferrer" class="text-decoration-none">{{ post.title }}</a>
+              </h4>
+
+              <h6 class="card-subtitle text-muted">
+                {{ post.date | date: "%b %-d, %Y" }}
+              </h6>
+
+              <p class="card-text">
+                {{ post.summary | default: post.excerpt | strip_html | truncate: 160 }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+
+      <!-- 페이지네이션: 테마 스타일 유지 (pagination-link) -->
+      <nav class="d-flex justify-content-center">
+        {% if paginator.total_pages > 1 %}
+          <ul class="pagination pagination-sm">
+            {% if paginator.previous_page %}
+              <li class="pagination-link">
+                <a href="{{ paginator.previous_page_path | relative_url }}">&laquo;</a>
+              </li>
+            {% else %}
+              <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
+            {% endif %}
+
+            <li class="pagination-link">
+              <a href="{{ '/blog' | relative_url }}">First</a>
+            </li>
+
+            {% for page in (1..paginator.total_pages) %}
+              {% if page == paginator.page %}
+                <li class="disabled pagination-link"><span><b>{{ page }}</b></span></li>
+              {% elsif page == 1 %}
+                <li class="pagination-link"><a href="{{ '/blog' | relative_url }}">{{ page }}</a></li>
+              {% else %}
+                <li class="pagination-link">
+                  <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+
+            <li class="pagination-link">
+              <a href="{{ '/blog/page/' | append: paginator.total_pages | append: '/' | relative_url }}">Last</a>
+            </li>
+
+            {% if paginator.next_page %}
+              <li class="pagination-link">
+                <a href="{{ paginator.next_page_path | relative_url }}">&raquo;</a>
+              </li>
+            {% else %}
+              <li class="pagination-link disabled"><span>&raquo;</span></li>
+            {% endif %}
+          </ul>
+        {% endif %}
+      </nav>
+
+    </div>
+
+    {%- include blog_sidebar.html -%}
+  </div>
+</div>
